@@ -1,0 +1,7 @@
+﻿{
+  "model_name": "dental_model",
+  "framework": "tensorflow",
+  "input_size": 224,
+  "output_classes": ["Normal", "Cavity", "Abscess", "Missing Smile"],
+  "normalize": true
+}

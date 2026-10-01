@@ -1,0 +1,8 @@
+﻿{
+    "model_name": "fracture_detection_yolo11",
+    "framework": "pytorch",
+    "format_type": "yolo11",
+    "input_size": 640,
+    "output_classes": ["Fracture", "Normal"],
+    "version": "11.0"
+}

@@ -1,0 +1,13 @@
+{
+  "model_name": "chest_xray_model",
+  "framework": "tensorflow",
+  "input_size": 224,
+  "input_shape": [1, 224, 224, 3],
+  "output_classes": [
+    "COVID19",
+    "NORMAL",
+    "PNEUMONIA",
+    "TUBERCULOSIS"
+  ],
+  "normalize": true
+}
